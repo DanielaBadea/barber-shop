@@ -1,46 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-    <!--acest html are 2 copii:head si body-->
-<head>
+  <!--acest html are 2 copii:head si body-->
+  <head>
     <!-- tag-urile meta sunt fol pt dif cenarii
    UTF-8 foloseste setul de caractere ex: diacritice,emoji
 este folosit ca site ul sa fie responsive-->
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <!--este singurul tag vizibil utilizatorului-->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--este singurul tag vizibil utilizatorului-->
     <title>BarberShop</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-    <!--Logoul paginii BarberShop-->
-    <!-- TODO: Pune link pe logo -->
-        <img src="./images/logo.svg" alt="Logo BarberShop"/>
-       <!--Bara de navigatie--> 
-       <nav>
+      <!--Logoul paginii BarberShop-->
+      <!-- TODO: Pune link pe logo -->
+      <img src="./images/logo.svg" alt="Logo BarberShop" />
+      <!--Bara de navigatie-->
+      <nav>
         <!-- o lista neordonata si are obligatoriul tag ul "li" -->
         <ul>
-            <!-- # nu ne duce nicaieri dar ne arata ca acele
+          <!-- # nu ne duce nicaieri dar ne arata ca acele
             butoane ar trebui sa fie link-uri -->
-            <li><a href="./about.html">About</a></li>
-            <li><a href="#">Services and Prices</a></li>
-            <li><a href="#">Barbers</a></li>
-            <li><a href="#">Contacts</a></li>
+          <li><a href="./about.html">About</a></li>
+          <li><a href="#">Services and Prices</a></li>
+          <li><a href="#">Barbers</a></li>
+          <li><a href="#">Contacts</a></li>
         </ul>
-       </nav>
-       <a href="tel:+38 044 111 11 11">+38 044 111 11 11</a>
-       <a href="https://goit.global/ro/" target="_blank">Book a Service</a>
-       <!-- book a Service se rfera la redirectionarea catre o pagina
+      </nav>
+      <a href="tel:+38 044 111 11 11">+38 044 111 11 11</a>
+      <a href="https://goit.global/ro/" target="_blank">Book a Service</a>
+      <!-- book a Service se rfera la redirectionarea catre o pagina
     noi am luat ca exemplu pagina GO IT -->
-        <!-- atr rel - current este pagina html si link doc este pagina GO IT- specif rel dintre elem curent si cel linkuit -->
-<section>
-    <!-- Partea de social media -->
-    <a href="#" target="_blank">Youtube</a>
-    <a href="#" target="_blank">Instagram</a>
-    <img src="./images/social-media-dash.png" alt="Separator"
-</section>
+      <!-- atr rel - current este pagina html si link doc este pagina GO IT- specif rel dintre elem curent si cel linkuit -->
+      <section>
+        <!-- Partea de social media -->
+        <a href="#" target="_blank">Youtube</a>
+        <a href="#" target="_blank">Instagram</a>
+        <img src="./images/vertical-dash.png" alt="Separator vertical" />
+      </section>
     </header>
     <main>
-        <!-- dupa header add main -rep main content doc (chestiile imp)
+      <!-- dupa header add main -rep main content doc (chestiile imp)
         acesta trebuie sa fie unic, adica nu pot avea 2
     va contine tot contentul , in cazul nostru linita oriz 
 sau in locul ei putem fol "hr/" (aceasta pune o line)
@@ -49,22 +49,245 @@ in cadrul lui se sparge in sectiuni
 span se fol intre cuv si fraze , daca adaug in span textul se scrie inline si se duce in continuare
 daca inlocim span ul cu paragraful textul este unul sub altul si cu spatiere
 span il putem folosi sa evidentiam o parte din bucatica, ex sa facem cuv "salon in rosu" -->
-    <section>
-
-    <hr/>
-    <span>A hair salon for men in Kyiv</span>
-    <h1>BarberShop</h1>
-    <p>We are experts in trendy men's haircuts.
-        We work quickly, carefully, and tastefully.</p>
-        
-    </section>
-    
-        <section>
-
-        </section>
-</main>
-    
-</body>
+      <section>
+        <hr />
+        <span>A hair salon for men in Kyiv</span>
+        <h1>BarberShop</h1>
+        <p>
+          We are experts in trendy men's haircuts. We work quickly, carefully,
+          and tastefully.
+        </p>
+      </section>
+      <!-- About Section -->
+      <section>
+        <div>
+          <img src="./images/shaving-foam.jpg" alt="Pune spuma de ras" />
+          <img src="./images/beard-cutter.jpg" alt="Taie barba" />
+        </div>
+        <div>
+          <img src="./images/horizontal-dash.png" alt="Separator orizontal" />
+          <span>About</span>
+        </div>
+        <h2>The Best Barbershop in Your City</h2>
+        <h3>
+          If you want to add more confidence to your image,you are definitely in
+          the right place.
+        </h3>
+        <p>
+          We are a team that never rests on its laurels and yearns for change.
+          And once you fall into the hands of our master, you will never be the
+          same again. We are a team that is always on the same wavelength with
+          clients. Therefore, we are always ready to improve everyone who comes
+          to us!
+        </p>
+        <button type="button">book a service</button>
+      </section>
+      <!-- Price List -->
+      <section>
+        <div>
+          <img src="./images/horizontal-dash.png" alt="Separator orizontal" />
+          <span>Spend time in the company of the best craftsmen</span>
+        </div>
+        <div>
+          <ul>
+            <li>
+              <span>Men's Haircut</span>
+              <span>.......................</span>
+              <span>from 300 UAH</span>
+            </li>
+            <li>
+              <span>Beard trim</span>
+              <span>.......................</span>
+              <span>from 200UAH</span>
+            </li>
+            <li>
+              <span>Mustache trim</span>
+              <span>.......................</span>
+              <span>from 200UAH</span>
+            </li>
+            <li>
+              <span>Straight Razor Shave</span>
+              <span>.......................</span>
+              <span>from 200UAH</span>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <ul>
+            <li>
+              <span>Trainee Haircut </span>
+              <span>.......................</span>
+              <span>from 50UAH</span>
+            </li>
+            <li>
+              <span>Buzz Cut</span>
+              <span>.......................</span>
+              <span>from 200UAH</span>
+            </li>
+            <li>
+              <span>Kids Haircut(<12 y.o.)</span>
+              <span>.......................</span>
+              <span>from 300 UAH</span>
+            </li>
+            <li>
+              <span>Gray Coverage</span>
+              <span>.......................</span>
+              <span>from 200 UAH</span>
+            </li>
+          </ul>
+        </div>
+        <button type="button">book a Service</button>
+      </section>
+      <section>
+        <div>
+          <ul>
+            <li>600 <span>Satisfied Customers per Day</span></li>
+            <li>20 <span>The Best Barbers of Kyiv</span></li>
+            <li>50 <span>Excellent Service Awards</span></li>
+            <li>100 <span>Gifts for Regular Customers</span></li>
+          </ul>
+        </div>
+        <img src="./images/horizontal-dash.png" alt="Separator orizontal" />
+        <h2>Why do they come to us?</h2>
+        <p>
+          Only good things are said about us. But it is better to see and feel 1
+          time than to read 10 times.
+        </p>
+      </section>
+      <!-- Section Our Barbers -->
+      <section>
+        <img src="./images/horizontal-dash.png" alt="Selector orizontal" />
+        <span>for true connoisseurs of the atmosphere</span>
+        <h2>Our Barbers</h2>
+        <ul>
+          <li>
+            <img src="./images/john-smith.jpg" alt="A men with tatto." />
+            <h3>John Smith</h3>
+            <p>Extreme Barber</p>
+            <ul>
+              <li>
+                <a href="https://www.instagram.com/?hl=en" target="_blank">
+                  <img src="./images/instagram.svg" alt="instagram"
+                /></a>
+              </li>
+              <li>
+                <a href="https://twitter.com/i/flow/signup" target="_blank">
+                  <img src="./images/twitter.svg" alt="Twitter" />
+                </a>
+              </li>
+              <li>
+                <a href="https://www.facebook.com/" target="_blank">
+                  <img src="./images/facebook.svg" alt="Facebook" />
+                </a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/" target="_blank">
+                  <img src="./images/linkedin.svg" alt="Linkedin" />
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <img src="./images/michele-doe.jpg" alt="A men with a shirt." />
+            <h3>Michele Doe</h3>
+            <p>Extreme Barber</p>
+            <ul>
+              <li>
+                <a href="https://www.instagram.com/?hl=en" target="_blank">
+                  <img src="./images/instagram.svg" alt="instagram"
+                /></a>
+              </li>
+              <li>
+                <a href="https://twitter.com/i/flow/signup" target="_blank">
+                  <img src="./images/twitter.svg" alt="Twitter" />
+                </a>
+              </li>
+              <li>
+                <a href="https://www.facebook.com/" target="_blank">
+                  <img src="./images/facebook.svg" alt="Facebook" />
+                </a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/" target="_blank">
+                  <img src="./images/linkedin.svg" alt="Linkedin" />
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <img src="./images/alan-black.jpg" alt="A men with a had." />
+            <h3>Alan Black</h3>
+            <p>Extreme Barber</p>
+            <ul>
+              <li>
+                <a href="https://www.instagram.com/?hl=en" target="_blank">
+                  <img src="./images/instagram.svg" alt="instagram"
+                /></a>
+              </li>
+              <li>
+                <a href="https://twitter.com/i/flow/signup" target="_blank">
+                  <img src="./images/twitter.svg" alt="Twitter" />
+                </a>
+              </li>
+              <li>
+                <a href="https://www.facebook.com/" target="_blank">
+                  <img src="./images/facebook.svg" alt="Facebook" />
+                </a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/" target="_blank">
+                  <img src="./images/linkedin.svg" alt="Linkedin" />
+                </a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <div><img src="./images/horizontal-dash.png" alt="Separator orizonatl." />
+            <span>In Latin, "barba" means "beard"</span></div>
+        <!-- <img src="./images/horizontal-dash.png" alt="Separator orizonatl." />
+        <span>In Latin, "barba" means "beard"</span> -->
+        <img src="./images/scissors.jpg" alt="Cut the hair with scissors." />
+        <img
+          src="./images/put-shaving-foam.jpg"
+          alt="Put shaving foam on the beard."
+        />
+        <img src="./images/skin-care.jpg" alt="Beauty ritual." />
+        <img src="./images/penknife.jpg" alt="Cut the hair with penknife." />
+      </section>
+      <!-- Section Book a Service and Contacts -->
+      <section>
+        <h2>Book a Service</h2>
+        <div>
+          <form action="#">
+            <label>Name <input type="text" name="name" /></label>
+            <label>Telefon <input type="text" name="telefon" /></label><br />
+            <label>Message <input type="text" name="message" /></label><br>
+            <button type="button">Send</button>
+          </form>
+        </div>
+        <div>
+          <h2>Contacts</h2>
+          <address>
+            <div></div>
+              <img src="./images/map-pin-icon.svg" alt="Map pin icon" />
+              <span>Main Street, 7A Kyiv, 08132</span>
+            </div>
+            <div>
+              <img src="./images/phone-icon.svg" alt="Phone icon" />
+              <a href="tel:+38 044 111 11 11">+38 044 111 11 11</a>
+            </div>
+            <div>
+              <img src="./images/mail-icon.svg" alt="Mail icon" />
+              <a href="mailto:barbershop@email.com">barbershop@email.com</a>
+            </div>
+            <div><img src="./images/horizontal-dash.png" alt="Separator orizonatl" />
+                <span>working hours</span></div>
+            <p>Daily from 9:00 AM till 22:00 PM</p>
+          </address>
+        </div>
+      </section>
+    </main>
+  </body>
 </html>
 
 <!-- pagina o impartim in sectiuni, ex:bara de meniu, o sectiuni cu pozele, partea de text, lista de pret etc.
