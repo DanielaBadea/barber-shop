@@ -1,2 +1,2 @@
-# barber-shop
- barber-shop
+# barbershop
+barbershop
